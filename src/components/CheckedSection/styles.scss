@@ -1,0 +1,17 @@
+.checked-section {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  &__block {
+    width: 100%;
+    font-size: 25px;
+    background: grey;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
